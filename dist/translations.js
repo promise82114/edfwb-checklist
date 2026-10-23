@@ -524,6 +524,9 @@ window.EDF_TRANSLATIONS = {
     "キュロスII・コンクエスト": "居魯士II征服",
     "素手：青竜級": "空手：青龍級",
     "スタグクィックビートル": "敏捷鍬形蟲",
+    "ファイブカード": "梭哈",
+    "ファイブカードPF": "梭哈PF",
+    "オングストロームΦ": "埃格斯特朗Phi",
     "双葉理保": "雙葉理保",
     "双葉理保(水着)": "雙葉理保（泳裝）",
     "双葉理保(夏服)": "雙葉理保（夏服）",
@@ -540,15 +543,12 @@ window.EDF_TRANSLATIONS = {
     "レイピアスフィア": "刺劍領域",
     "レイピアスライサー": "刺劍切片刀",
     "マスターレイピア": "大師刺劍",
-    "ファイブカード": "五張牌",
-    "ファイブカードPF": "五張牌PF",
-    "オングストロームΦ": "埃格斯特朗Φ",
-    "サンダースナイパー": "雷霆狙擊槍",
-    "サンダースナイパーA": "雷霆狙擊槍A",
-    "サンダースナイパーB": "雷霆狙擊槍B",
-    "サンダースナイパーC": "雷霆狙擊槍C",
-    "サンダースナイパーD": "雷霆狙擊槍D",
-    "サンダースナイパーR": "雷霆狙擊槍R",
+    "サンダースナイパー": "閃電狙擊槍",
+    "サンダースナイパーA": "閃電狙擊槍A",
+    "サンダースナイパーB": "閃電狙擊槍B",
+    "サンダースナイパーC": "閃電狙擊槍C",
+    "サンダースナイパーD": "閃電狙擊槍D",
+    "サンダースナイパーR": "閃電狙擊槍R",
     "キュロス": "居魯士",
     "狂虎": "狂虎",
     "狂虎:穢れレベル1": "狂虎：污穢等級1",
@@ -573,13 +573,13 @@ window.EDF_TRANSLATIONS = {
     "サンタハンマーD3": "聖誕戰鎚D3",
     "サンタハンマーZD": "聖誕戰鎚ZD",
     "サンタハンマーD9": "聖誕戰鎚D9",
-    "ライオニック": "萊奧尼克",
+    "ライオニック": "雄獅",
     "グリズリー・ナックル": "灰熊手指虎",
     "バット・ミトン": "蝙蝠連指手套",
     "シール・アンクレット": "海豹腳鍊",
     "マナティー・リング": "海牛戒指",
     "エレファント・ジャケット": "大象夾克",
-    "ライノサラス・コート": "犀牛大衣"
+    "ライノサラス・コート": "犀牛外套"
   },
   "families": {
     "陸戦兵(EDF1)": "陸戰兵",
@@ -1105,6 +1105,9 @@ window.EDF_TRANSLATIONS = {
     "キュロスII・コンクエスト": "居魯士II征服",
     "素手：青竜級": "空手：青龍級",
     "スタグクィックビートル": "敏捷鍬形蟲",
+    "ファイブカード": "梭哈",
+    "ファイブカードPF": "梭哈PF",
+    "オングストロームΦ": "埃格斯特朗Phi",
     "双葉理保": "雙葉理保",
     "双葉理保(水着)": "雙葉理保（泳裝）",
     "双葉理保(夏服)": "雙葉理保（夏服）",
@@ -1121,15 +1124,12 @@ window.EDF_TRANSLATIONS = {
     "レイピアスフィア": "刺劍領域",
     "レイピアスライサー": "刺劍切片刀",
     "マスターレイピア": "大師刺劍",
-    "ファイブカード": "五張牌",
-    "ファイブカードPF": "五張牌PF",
-    "オングストロームΦ": "埃格斯特朗Φ",
-    "サンダースナイパー": "雷霆狙擊槍",
-    "サンダースナイパーA": "雷霆狙擊槍A",
-    "サンダースナイパーB": "雷霆狙擊槍B",
-    "サンダースナイパーC": "雷霆狙擊槍C",
-    "サンダースナイパーD": "雷霆狙擊槍D",
-    "サンダースナイパーR": "雷霆狙擊槍R",
+    "サンダースナイパー": "閃電狙擊槍",
+    "サンダースナイパーA": "閃電狙擊槍A",
+    "サンダースナイパーB": "閃電狙擊槍B",
+    "サンダースナイパーC": "閃電狙擊槍C",
+    "サンダースナイパーD": "閃電狙擊槍D",
+    "サンダースナイパーR": "閃電狙擊槍R",
     "キュロス": "居魯士",
     "狂虎": "狂虎",
     "狂虎:穢れレベル1": "狂虎：污穢等級1",
@@ -1154,13 +1154,13 @@ window.EDF_TRANSLATIONS = {
     "サンタハンマーD3": "聖誕戰鎚D3",
     "サンタハンマーZD": "聖誕戰鎚ZD",
     "サンタハンマーD9": "聖誕戰鎚D9",
-    "ライオニック": "萊奧尼克",
+    "ライオニック": "雄獅",
     "グリズリー・ナックル": "灰熊手指虎",
     "バット・ミトン": "蝙蝠連指手套",
     "シール・アンクレット": "海豹腳鍊",
     "マナティー・リング": "海牛戒指",
     "エレファント・ジャケット": "大象夾克",
-    "ライノサラス・コート": "犀牛大衣"
+    "ライノサラス・コート": "犀牛外套"
   },
   "provenance": {
     "陸戦兵(EDF1)": {
@@ -4824,25 +4824,156 @@ window.EDF_TRANSLATIONS = {
       "wb2Verified": false,
       "origin": "wb2"
     },
+    "ファイブカード": {
+      "zh": "梭哈",
+      "sourceName": "ファイブガード",
+      "method": "explicit-alias",
+      "wb2Verified": true,
+      "note": "カ／ガ 差異；同系列、LV3、出處角色與 PF 型號對應。",
+      "origin": "wb2"
+    },
+    "ファイブカードPF": {
+      "zh": "梭哈PF",
+      "sourceName": "ファイブガードPF",
+      "method": "explicit-alias",
+      "wb2Verified": true,
+      "note": "カ／ガ 差異；同系列、LV3、出處角色與 PF 型號對應。",
+      "origin": "wb2"
+    },
+    "オングストロームΦ": {
+      "zh": "埃格斯特朗Phi",
+      "sourceName": "オングストロームφ",
+      "method": "typography",
+      "wb2Verified": true,
+      "note": "希臘字母 Φ／φ 大小寫差異，型號與 LV2 對應。",
+      "origin": "wb2"
+    },
     "双葉理保": {
       "origin": "reference",
-      "method": "translation"
+      "method": "composition",
+      "parts": [
+        {
+          "ja": "双葉理保",
+          "zh": "雙葉理保",
+          "sourceName": "双葉理保 14歳 ～夏～",
+          "sourceZh": "雙葉理保 14歲 ～夏～",
+          "wb2Verified": false
+        }
+      ],
+      "note": "取既有角色名的本名；來源本身仍待畫面核對。"
     },
     "双葉理保(水着)": {
       "origin": "reference",
-      "method": "translation"
+      "method": "composition",
+      "parts": [
+        {
+          "ja": "双葉理保",
+          "zh": "雙葉理保",
+          "sourceName": "双葉理保 14歳 ～夏～",
+          "sourceZh": "雙葉理保 14歲 ～夏～",
+          "wb2Verified": false
+        },
+        {
+          "ja": "(",
+          "zh": "（",
+          "method": "literal"
+        },
+        {
+          "ja": "水着",
+          "zh": "泳裝",
+          "method": "translation"
+        },
+        {
+          "ja": ")",
+          "zh": "）",
+          "method": "literal"
+        }
+      ],
+      "note": "角色本名加服裝參考翻譯；不等同另一年齡／季節版本。"
     },
     "双葉理保(夏服)": {
       "origin": "reference",
-      "method": "translation"
+      "method": "composition",
+      "parts": [
+        {
+          "ja": "双葉理保",
+          "zh": "雙葉理保",
+          "sourceName": "双葉理保 14歳 ～夏～",
+          "sourceZh": "雙葉理保 14歲 ～夏～",
+          "wb2Verified": false
+        },
+        {
+          "ja": "(",
+          "zh": "（",
+          "method": "literal"
+        },
+        {
+          "ja": "夏服",
+          "zh": "夏服",
+          "method": "translation"
+        },
+        {
+          "ja": ")",
+          "zh": "）",
+          "method": "literal"
+        }
+      ],
+      "note": "角色本名加服裝參考翻譯；不等同另一年齡／季節版本。"
     },
     "双葉理保(サンタ)": {
       "origin": "reference",
-      "method": "translation"
+      "method": "composition",
+      "parts": [
+        {
+          "ja": "双葉理保",
+          "zh": "雙葉理保",
+          "sourceName": "双葉理保 14歳 ～夏～",
+          "sourceZh": "雙葉理保 14歲 ～夏～",
+          "wb2Verified": false
+        },
+        {
+          "ja": "(",
+          "zh": "（",
+          "method": "literal"
+        },
+        {
+          "ja": "サンタ",
+          "zh": "聖誕裝",
+          "method": "translation"
+        },
+        {
+          "ja": ")",
+          "zh": "）",
+          "method": "literal"
+        }
+      ],
+      "note": "角色本名加服裝參考翻譯；不等同另一年齡／季節版本。"
     },
     "陸戦兵(EDF3)ストーム1仕様": {
       "origin": "reference",
-      "method": "translation"
+      "method": "composition",
+      "parts": [
+        {
+          "ja": "陸戦兵(EDF3)",
+          "zh": "陸戰兵(EDF3)",
+          "sourceName": "陸戦兵(EDF3)",
+          "sourceZh": "陸戰兵(EDF3)",
+          "wb2Verified": true
+        },
+        {
+          "ja": "ストーム1",
+          "zh": " STORM 1",
+          "method": "translation"
+        },
+        {
+          "ja": "仕様",
+          "zh": "規格",
+          "sourceName": "プロールライダー(EDF:IR)KR仕様",
+          "sourceZh": "獵行兵(EDF:IR) KR規格",
+          "wb2Verified": true
+        }
+      ],
+      "note": "既有兵種名加 STORM 1 規格；角色版本仍待核對。"
     },
     "雪": {
       "origin": "reference",
@@ -4866,67 +4997,269 @@ window.EDF_TRANSLATIONS = {
     },
     "レンジャー(EDF5)軍曹仕様": {
       "origin": "reference",
-      "method": "translation"
+      "method": "composition",
+      "parts": [
+        {
+          "ja": "レンジャー(EDF5)",
+          "zh": "突擊兵(EDF5)",
+          "sourceName": "レンジャー(EDF5)",
+          "sourceZh": "突擊兵(EDF5)",
+          "wb2Verified": true
+        },
+        {
+          "ja": "軍曹",
+          "zh": " 軍曹",
+          "method": "translation"
+        },
+        {
+          "ja": "仕様",
+          "zh": "規格",
+          "sourceName": "プロールライダー(EDF:IR)KR仕様",
+          "sourceZh": "獵行兵(EDF:IR) KR規格",
+          "wb2Verified": true
+        }
+      ],
+      "note": "既有兵種名加軍曹規格；無印與 V01 共用本名，進度分開。"
     },
     "オプティクスⅡ": {
       "origin": "reference",
-      "method": "translation"
+      "method": "composition",
+      "parts": [
+        {
+          "ja": "オプティクス",
+          "zh": "光學系統",
+          "sourceName": "オプティクス",
+          "sourceZh": "光學系統",
+          "wb2Verified": false
+        },
+        {
+          "ja": "Ⅱ",
+          "zh": "II",
+          "method": "literal"
+        }
+      ],
+      "note": "既有系列名加 II；系列名來源本身未獨立實機核對。"
     },
     "ブルーレイピア": {
       "origin": "reference",
-      "method": "translation"
+      "method": "composition",
+      "parts": [
+        {
+          "ja": "ブルーレイピア",
+          "zh": "蒼藍刺劍",
+          "sourceName": "MXブルーレイピア",
+          "sourceZh": "MX蒼藍刺劍",
+          "wb2Verified": true
+        }
+      ],
+      "note": "移除日文與中文共同的 MX 型號前綴；保留完整名稱待核對標記。"
     },
     "レイピアスフィア": {
       "origin": "reference",
-      "method": "translation"
+      "method": "composition",
+      "parts": [
+        {
+          "ja": "レイピアスフィア",
+          "zh": "刺劍領域",
+          "sourceName": "MXレイピアスフィア",
+          "sourceZh": "MX刺劍領域",
+          "wb2Verified": true
+        }
+      ],
+      "note": "移除日文與中文共同的 MX 型號前綴；保留完整名稱待核對標記。"
     },
     "レイピアスライサー": {
       "origin": "reference",
-      "method": "translation"
+      "method": "composition",
+      "parts": [
+        {
+          "ja": "レイピアスライサー",
+          "zh": "刺劍切片刀",
+          "sourceName": "MXレイピアスライサー",
+          "sourceZh": "MX刺劍切片刀",
+          "wb2Verified": true
+        }
+      ],
+      "note": "移除日文與中文共同的 MX 型號前綴；保留完整名稱待核對標記。"
     },
     "マスターレイピア": {
       "origin": "reference",
-      "method": "translation"
-    },
-    "ファイブカード": {
-      "origin": "reference",
-      "method": "translation"
-    },
-    "ファイブカードPF": {
-      "origin": "reference",
-      "method": "translation"
-    },
-    "オングストロームΦ": {
-      "origin": "reference",
-      "method": "translation"
+      "method": "composition",
+      "parts": [
+        {
+          "ja": "マスターレイピア",
+          "zh": "大師刺劍",
+          "sourceName": "MXマスターレイピア",
+          "sourceZh": "MX大師刺劍",
+          "wb2Verified": true
+        }
+      ],
+      "note": "移除日文與中文共同的 MX 型號前綴；保留完整名稱待核對標記。"
     },
     "サンダースナイパー": {
       "origin": "reference",
-      "method": "translation"
+      "method": "composition",
+      "parts": [
+        {
+          "ja": "サンダー",
+          "zh": "閃電",
+          "sourceName": "サンダーボウ",
+          "sourceZh": "閃電弓",
+          "wb2Verified": true
+        },
+        {
+          "ja": "スナイパー",
+          "zh": "狙擊槍",
+          "sourceName": "スタンスナイパー",
+          "sourceZh": "電擊狙擊槍",
+          "wb2Verified": true
+        }
+      ],
+      "note": "依已核對的閃電／狙擊槍詞段組合，保留一代原型號。"
     },
     "サンダースナイパーA": {
       "origin": "reference",
-      "method": "translation"
+      "method": "composition",
+      "parts": [
+        {
+          "ja": "サンダー",
+          "zh": "閃電",
+          "sourceName": "サンダーボウ",
+          "sourceZh": "閃電弓",
+          "wb2Verified": true
+        },
+        {
+          "ja": "スナイパー",
+          "zh": "狙擊槍",
+          "sourceName": "スタンスナイパー",
+          "sourceZh": "電擊狙擊槍",
+          "wb2Verified": true
+        },
+        {
+          "ja": "A",
+          "zh": "A",
+          "method": "literal"
+        }
+      ],
+      "note": "依已核對的閃電／狙擊槍詞段組合，保留一代原型號。"
     },
     "サンダースナイパーB": {
       "origin": "reference",
-      "method": "translation"
+      "method": "composition",
+      "parts": [
+        {
+          "ja": "サンダー",
+          "zh": "閃電",
+          "sourceName": "サンダーボウ",
+          "sourceZh": "閃電弓",
+          "wb2Verified": true
+        },
+        {
+          "ja": "スナイパー",
+          "zh": "狙擊槍",
+          "sourceName": "スタンスナイパー",
+          "sourceZh": "電擊狙擊槍",
+          "wb2Verified": true
+        },
+        {
+          "ja": "B",
+          "zh": "B",
+          "method": "literal"
+        }
+      ],
+      "note": "依已核對的閃電／狙擊槍詞段組合，保留一代原型號。"
     },
     "サンダースナイパーC": {
       "origin": "reference",
-      "method": "translation"
+      "method": "composition",
+      "parts": [
+        {
+          "ja": "サンダー",
+          "zh": "閃電",
+          "sourceName": "サンダーボウ",
+          "sourceZh": "閃電弓",
+          "wb2Verified": true
+        },
+        {
+          "ja": "スナイパー",
+          "zh": "狙擊槍",
+          "sourceName": "スタンスナイパー",
+          "sourceZh": "電擊狙擊槍",
+          "wb2Verified": true
+        },
+        {
+          "ja": "C",
+          "zh": "C",
+          "method": "literal"
+        }
+      ],
+      "note": "依已核對的閃電／狙擊槍詞段組合，保留一代原型號。"
     },
     "サンダースナイパーD": {
       "origin": "reference",
-      "method": "translation"
+      "method": "composition",
+      "parts": [
+        {
+          "ja": "サンダー",
+          "zh": "閃電",
+          "sourceName": "サンダーボウ",
+          "sourceZh": "閃電弓",
+          "wb2Verified": true
+        },
+        {
+          "ja": "スナイパー",
+          "zh": "狙擊槍",
+          "sourceName": "スタンスナイパー",
+          "sourceZh": "電擊狙擊槍",
+          "wb2Verified": true
+        },
+        {
+          "ja": "D",
+          "zh": "D",
+          "method": "literal"
+        }
+      ],
+      "note": "依已核對的閃電／狙擊槍詞段組合，保留一代原型號。"
     },
     "サンダースナイパーR": {
       "origin": "reference",
-      "method": "translation"
+      "method": "composition",
+      "parts": [
+        {
+          "ja": "サンダー",
+          "zh": "閃電",
+          "sourceName": "サンダーボウ",
+          "sourceZh": "閃電弓",
+          "wb2Verified": true
+        },
+        {
+          "ja": "スナイパー",
+          "zh": "狙擊槍",
+          "sourceName": "スタンスナイパー",
+          "sourceZh": "電擊狙擊槍",
+          "wb2Verified": true
+        },
+        {
+          "ja": "R",
+          "zh": "R",
+          "method": "literal"
+        }
+      ],
+      "note": "依已核對的閃電／狙擊槍詞段組合，保留一代原型號。"
     },
     "キュロス": {
       "origin": "reference",
-      "method": "translation"
+      "method": "composition",
+      "parts": [
+        {
+          "ja": "キュロス",
+          "zh": "居魯士",
+          "sourceName": "キュロスII",
+          "sourceZh": "居魯士II",
+          "wb2Verified": true
+        }
+      ],
+      "note": "移除日文與中文共同的 II 型號。"
     },
     "狂虎": {
       "origin": "reference",
@@ -4978,75 +5311,370 @@ window.EDF_TRANSLATIONS = {
     },
     "ラッキーバレット": {
       "origin": "reference",
-      "method": "translation"
+      "method": "composition",
+      "parts": [
+        {
+          "ja": "ラッキー",
+          "zh": "幸運",
+          "sourceName": "ラッキーガール",
+          "sourceZh": "幸運女孩",
+          "wb2Verified": true
+        },
+        {
+          "ja": "バレット",
+          "zh": "子彈",
+          "sourceName": "ビーバレットバズ",
+          "sourceZh": "嗡嗡蜜蜂子彈",
+          "wb2Verified": true
+        }
+      ],
+      "note": "依既有幸運／子彈詞段組合。"
     },
     "ビンゴバレット": {
       "origin": "reference",
-      "method": "translation"
+      "method": "composition",
+      "parts": [
+        {
+          "ja": "ビンゴ",
+          "zh": "賓果",
+          "method": "translation"
+        },
+        {
+          "ja": "バレット",
+          "zh": "子彈",
+          "sourceName": "ビーバレットバズ",
+          "sourceZh": "嗡嗡蜜蜂子彈",
+          "wb2Verified": true
+        }
+      ],
+      "note": "前段參考翻譯加已核對的子彈詞段。"
     },
     "フォーチュンバレット": {
       "origin": "reference",
-      "method": "translation"
+      "method": "composition",
+      "parts": [
+        {
+          "ja": "フォーチュン",
+          "zh": "福運",
+          "method": "translation"
+        },
+        {
+          "ja": "バレット",
+          "zh": "子彈",
+          "sourceName": "ビーバレットバズ",
+          "sourceZh": "嗡嗡蜜蜂子彈",
+          "wb2Verified": true
+        }
+      ],
+      "note": "前段參考翻譯加已核對的子彈詞段。"
     },
     "ギャンブルバレット": {
       "origin": "reference",
-      "method": "translation"
+      "method": "composition",
+      "parts": [
+        {
+          "ja": "ギャンブル",
+          "zh": "賭博",
+          "method": "translation"
+        },
+        {
+          "ja": "バレット",
+          "zh": "子彈",
+          "sourceName": "ビーバレットバズ",
+          "sourceZh": "嗡嗡蜜蜂子彈",
+          "wb2Verified": true
+        }
+      ],
+      "note": "前段參考翻譯加已核對的子彈詞段。"
     },
     "スーパーラッキーバレット": {
       "origin": "reference",
-      "method": "translation"
+      "method": "composition",
+      "parts": [
+        {
+          "ja": "スーパー",
+          "zh": "超級",
+          "sourceName": "ラッキーガール・スーパー",
+          "sourceZh": "超級幸運女孩",
+          "wb2Verified": true
+        },
+        {
+          "ja": "ラッキー",
+          "zh": "幸運",
+          "sourceName": "ラッキーガール",
+          "sourceZh": "幸運女孩",
+          "wb2Verified": true
+        },
+        {
+          "ja": "バレット",
+          "zh": "子彈",
+          "sourceName": "ビーバレットバズ",
+          "sourceZh": "嗡嗡蜜蜂子彈",
+          "wb2Verified": true
+        }
+      ],
+      "note": "依既有超級／幸運／子彈詞段組合。"
     },
     "ヘブンズゲート": {
       "origin": "reference",
-      "method": "translation"
+      "method": "composition",
+      "parts": [
+        {
+          "ja": "ヘブンズゲート",
+          "zh": "天國門扉",
+          "sourceName": "ヘブンズゲート・ランチャー",
+          "sourceZh": "天國門扉發射器",
+          "wb2Verified": true
+        }
+      ],
+      "note": "取已核對發射器名稱的系列詞段；不套用未核對的ガン譯名。"
     },
     "サンタハンマー": {
       "origin": "reference",
-      "method": "translation"
+      "method": "composition",
+      "parts": [
+        {
+          "ja": "サンタ",
+          "zh": "聖誕",
+          "method": "translation"
+        },
+        {
+          "ja": "ハンマー",
+          "zh": "戰鎚",
+          "sourceName": "ヴィブロハンマー",
+          "sourceZh": "駭波戰鎚",
+          "wb2Verified": true
+        }
+      ],
+      "note": "聖誕參考翻譯加已核對的戰鎚詞段，型號照原文保留。"
     },
     "サンタハンマーD2": {
       "origin": "reference",
-      "method": "translation"
+      "method": "composition",
+      "parts": [
+        {
+          "ja": "サンタ",
+          "zh": "聖誕",
+          "method": "translation"
+        },
+        {
+          "ja": "ハンマー",
+          "zh": "戰鎚",
+          "sourceName": "ヴィブロハンマー",
+          "sourceZh": "駭波戰鎚",
+          "wb2Verified": true
+        },
+        {
+          "ja": "D2",
+          "zh": "D2",
+          "method": "literal"
+        }
+      ],
+      "note": "聖誕參考翻譯加已核對的戰鎚詞段，型號照原文保留。"
     },
     "サンタハンマーD3": {
       "origin": "reference",
-      "method": "translation"
+      "method": "composition",
+      "parts": [
+        {
+          "ja": "サンタ",
+          "zh": "聖誕",
+          "method": "translation"
+        },
+        {
+          "ja": "ハンマー",
+          "zh": "戰鎚",
+          "sourceName": "ヴィブロハンマー",
+          "sourceZh": "駭波戰鎚",
+          "wb2Verified": true
+        },
+        {
+          "ja": "D3",
+          "zh": "D3",
+          "method": "literal"
+        }
+      ],
+      "note": "聖誕參考翻譯加已核對的戰鎚詞段，型號照原文保留。"
     },
     "サンタハンマーZD": {
       "origin": "reference",
-      "method": "translation"
+      "method": "composition",
+      "parts": [
+        {
+          "ja": "サンタ",
+          "zh": "聖誕",
+          "method": "translation"
+        },
+        {
+          "ja": "ハンマー",
+          "zh": "戰鎚",
+          "sourceName": "ヴィブロハンマー",
+          "sourceZh": "駭波戰鎚",
+          "wb2Verified": true
+        },
+        {
+          "ja": "ZD",
+          "zh": "ZD",
+          "method": "literal"
+        }
+      ],
+      "note": "聖誕參考翻譯加已核對的戰鎚詞段，型號照原文保留。"
     },
     "サンタハンマーD9": {
       "origin": "reference",
-      "method": "translation"
+      "method": "composition",
+      "parts": [
+        {
+          "ja": "サンタ",
+          "zh": "聖誕",
+          "method": "translation"
+        },
+        {
+          "ja": "ハンマー",
+          "zh": "戰鎚",
+          "sourceName": "ヴィブロハンマー",
+          "sourceZh": "駭波戰鎚",
+          "wb2Verified": true
+        },
+        {
+          "ja": "D9",
+          "zh": "D9",
+          "method": "literal"
+        }
+      ],
+      "note": "聖誕參考翻譯加已核對的戰鎚詞段，型號照原文保留。"
     },
     "ライオニック": {
       "origin": "reference",
-      "method": "translation"
+      "method": "composition",
+      "parts": [
+        {
+          "ja": "ライオニック",
+          "zh": "雄獅",
+          "sourceName": "ライオニック・プランA",
+          "sourceZh": "雄獅・計畫A",
+          "wb2Verified": true
+        }
+      ],
+      "note": "取 A／B 型已核對的雄獅詞段；不取未核對 C／D／E 的讀音推定。"
     },
     "グリズリー・ナックル": {
       "origin": "reference",
-      "method": "translation"
+      "method": "composition",
+      "parts": [
+        {
+          "ja": "グリズリー",
+          "zh": "灰熊",
+          "method": "translation"
+        },
+        {
+          "ja": "ナックル",
+          "zh": "手指虎",
+          "sourceName": "ウルフナックル",
+          "sourceZh": "野狼手指虎",
+          "wb2Verified": true
+        }
+      ],
+      "note": "灰熊參考翻譯加手指虎；不借用野狼整個名稱。"
     },
     "バット・ミトン": {
       "origin": "reference",
-      "method": "translation"
+      "method": "composition",
+      "parts": [
+        {
+          "ja": "バット",
+          "zh": "蝙蝠",
+          "sourceName": "バットリストバンド",
+          "sourceZh": "蝙蝠護腕",
+          "wb2Verified": true
+        },
+        {
+          "ja": "ミトン",
+          "zh": "連指手套",
+          "sourceName": "ホークミトン",
+          "sourceZh": "隼鷹連指手套",
+          "wb2Verified": true
+        }
+      ],
+      "note": "蝙蝠與連指手套均有既有詞段對照；完整組合仍待核對。"
     },
     "シール・アンクレット": {
       "origin": "reference",
-      "method": "translation"
+      "method": "composition",
+      "parts": [
+        {
+          "ja": "シール",
+          "zh": "海豹",
+          "method": "translation"
+        },
+        {
+          "ja": "アンクレット",
+          "zh": "腳鍊",
+          "sourceName": "マーリンアンクレット",
+          "sourceZh": "旗魚腳鍊",
+          "wb2Verified": true
+        }
+      ],
+      "note": "海豹參考翻譯加腳鍊。"
     },
     "マナティー・リング": {
       "origin": "reference",
-      "method": "translation"
+      "method": "composition",
+      "parts": [
+        {
+          "ja": "マナティー",
+          "zh": "海牛",
+          "method": "translation"
+        },
+        {
+          "ja": "リング",
+          "zh": "戒指",
+          "sourceName": "シーオッターリング",
+          "sourceZh": "海獺戒指",
+          "wb2Verified": true
+        }
+      ],
+      "note": "海牛參考翻譯加戒指。"
     },
     "エレファント・ジャケット": {
       "origin": "reference",
-      "method": "translation"
+      "method": "composition",
+      "parts": [
+        {
+          "ja": "エレファント",
+          "zh": "大象",
+          "sourceName": "エレファントコート",
+          "sourceZh": "大象外套",
+          "wb2Verified": true
+        },
+        {
+          "ja": "ジャケット",
+          "zh": "夾克",
+          "sourceName": "スネークジャケット",
+          "sourceZh": "蛇皮夾克",
+          "wb2Verified": true
+        }
+      ],
+      "note": "大象加夾克；不把ジャケット當成コート。"
     },
     "ライノサラス・コート": {
       "origin": "reference",
-      "method": "translation"
+      "method": "composition",
+      "parts": [
+        {
+          "ja": "ライノサラス",
+          "zh": "犀牛",
+          "method": "translation"
+        },
+        {
+          "ja": "コート",
+          "zh": "外套",
+          "sourceName": "エレファントコート",
+          "sourceZh": "大象外套",
+          "wb2Verified": true
+        }
+      ],
+      "note": "犀牛參考翻譯加已核對的外套詞段。"
     }
   },
   "accessories": {

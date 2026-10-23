@@ -38,6 +38,23 @@ const weapon=items.find(i=>i.name==='零式レーザーライフル');assert.dee
 assert.equal(w.EDF_TRANSLATIONS.names['フューリアス'],'狂怒');
 assert.equal(w.EDF_TRANSLATIONS.names['ブルーレイピア'],'蒼藍刺劍');
 assert.equal(w.EDF_TRANSLATIONS.provenance['ブルーレイピア'].origin,'reference');
+// 放寬對照只採已審核的別名；詞段組合仍屬參考翻譯，避免當成完整名稱已核對。
+assert.equal(w.EDF_TRANSLATIONS.names['ファイブカード'],'梭哈');
+assert.equal(w.EDF_TRANSLATIONS.names['ファイブカードPF'],'梭哈PF');
+assert.equal(w.EDF_TRANSLATIONS.provenance['ファイブカード'].sourceName,'ファイブガード');
+assert.equal(w.EDF_TRANSLATIONS.provenance['ファイブカード'].origin,'wb2');
+assert.equal(w.EDF_TRANSLATIONS.names['オングストロームΦ'],'埃格斯特朗Phi');
+assert.equal(w.EDF_TRANSLATIONS.provenance['ブルーレイピア'].method,'composition');
+assert.equal(w.EDF_TRANSLATIONS.names['サンダースナイパーA'],'閃電狙擊槍A');
+assert.equal(w.EDF_TRANSLATIONS.names['エレファント・ジャケット'],'大象夾克');
+assert.equal(w.EDF_TRANSLATIONS.names['ライノサラス・コート'],'犀牛外套');
+assert.equal(w.EDF_TRANSLATIONS.provenance['グリズリー・ナックル'].origin,'reference');
+assert.equal(w.EDF_TRANSLATIONS.provenance['狂虎:穢れレベル1'].method,'translation');
+const localizationReference=JSON.parse(await fs.readFile('data/localization-reference.json','utf8'));
+for(const [name,composition]of Object.entries(localizationReference.compositions)){
+ assert.equal(composition.parts.map(p=>p.zh).join(''),w.EDF_TRANSLATIONS.names[name]);
+ assert.equal(w.EDF_TRANSLATIONS.provenance[name].origin,'reference');
+}
 assert.ok(!items.some(i=>i.kind==='accessories'&&i.name==='ライオン・グローブ'&&i.type==='赤色'&&i.level===2));
 // 執行應用程式真正使用的 fresh/validate，而非另一份備份驗證器。
 context.catalog=w.EDF_CATALOG;context.ids=new Set(items.map(i=>i.id));context.missionIds=new Set(w.EDF_MISSIONS.rows.map(m=>m.code));context.contentIds=optionIds;

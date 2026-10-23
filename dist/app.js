@@ -33,7 +33,7 @@ function translatedName(i){
  if(i.kind==='accessories')return (i.type==='通常型'?'':translations.accessories.types[i.type])+nameZh(i.name);
  return nameZh(i.name)+(i.kind==='characters'?characterSuffix(i):'');
 }
-function translationBadge(i){return translations.provenance[i.name]?.origin==='reference'?'<small class="translation-origin" title="此中文名稱為參考翻譯，尚待遊戲畫面核對">參考翻譯</small>':'';}
+function translationBadge(i){const p=translations.provenance[i.name];return p?.origin==='reference'?'<small class="translation-origin" title="'+(p.method==='composition'?'依既有中文詞段與原文組合，完整名稱尚待遊戲畫面核對':'此中文名稱為參考翻譯，尚待遊戲畫面核對')+'">參考翻譯</small>':'';}
 function rescueSlot(name,variant){return variant;}
 function candidateGroups(name,variant){
  const item=catalog.items.find(c=>c.kind==='characters'&&c.name===name&&c.variant===variant);

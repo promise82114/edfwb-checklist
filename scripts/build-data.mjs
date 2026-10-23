@@ -8,6 +8,11 @@ const idFor=(kind,...keys)=>'wb1-'+kind[0]+'-'+createHash('sha256').update(JSON.
 const names=Object.fromEntries(Object.entries(reference.entries).map(([n,v])=>[n,v.zh]));
 const provenance=Object.fromEntries(Object.entries(reference.entries).map(([n,v])=>[n,{...v,origin:'wb2'}]));
 for(const [n,zh]of Object.entries(fallback)){if(names[n])throw Error('參考翻譯不可覆蓋二代名稱：'+n);names[n]=zh;provenance[n]={origin:'reference',method:'translation'};}
+for(const [n,composition]of Object.entries(reference.compositions||{})){
+ if(fallback[n]!==composition.zh||composition.parts.map(p=>p.zh).join('')!==composition.zh)throw Error('組合譯名與參考翻譯不一致：'+n);
+ for(const part of composition.parts)if(part.sourceName&&(!part.sourceName.includes(part.ja)||!part.sourceZh.includes(part.zh.trim())))throw Error('組合詞段與來源不一致：'+n);
+ provenance[n]={origin:'reference',method:'composition',parts:composition.parts,note:composition.note};
+}
 const items=[],weaponFamilies={},characters={},options=[],requirements={},acquisition={};
 const categoryOf=name=>/EDF[12]|EDF2PV/.test(name)?'EDF1&2':/EDF[34]/.test(name)?'EDF3&4':/EDF5/.test(name)?'EDF5':/EDF:I[AR]/.test(name)?'EDF:IA&IR':'ご当地';
 const fixedNotes={
