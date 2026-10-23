@@ -1,4 +1,4 @@
-/* 一代按攻略列出的角色名稱推算候選版本，不套用二代地區／版本表。 */
+/* 依攻略角色名單推算候選版本；候選數不是掉落率。 */
 window.EDF_MISSIONS = (() => {
   const catalog=window.EDF_CATALOG, details=window.EDF_DETAILS;
   function slot(c){return c.variant;}
